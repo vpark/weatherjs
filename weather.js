@@ -17,6 +17,7 @@ function locationSucceed(position) {
 }
 
 function locationFail(){
+  alert('Please allow location tracking.')
   console.log("location failed");
   datePopulate();
   bgPopulate();
@@ -67,10 +68,10 @@ function datePopulate(){
 }
 
 // ideally this would take temp as its input and use a helper function to create a different background color depending on the weather
-function bgPopulate()
+function bgPopulate(){
   // the hidden body is shown after the weather has been updated
   $("body").animate({ opacity:'1'}, 1000);
-
+}
 
 function buttonEvent(){
   $(".tableDates").click(function(){

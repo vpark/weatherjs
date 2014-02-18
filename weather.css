@@ -45,8 +45,7 @@ body {
 }
 
 .weatherTable {
-  
-  display: inline-flex;
+  display: -webkit-inline-box;
 }
 
 .tableDates {
@@ -57,7 +56,6 @@ body {
   float: left;
   clear: both;
   overflow: hidden;
-  display: inline-block;
   background-color: white;
   margin: 0px 2.5px;
   line-height: 3.5em;
