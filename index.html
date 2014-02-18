@@ -9,15 +9,17 @@
 </head>
 
 <body>
-  Where are you located?
-  <br>
-  Longitude: <div id="longitude"></div>
-  <br>
-  Latitude: <div id="latitude"></div>
-  <br>
-  Weather: <div id="main"></div>
-  <br>
-  Temperature: <div id="temp"></div>
+  <div class="span">
+    <!-- add stuff for location fail -->
+    <div class="locationPrompt"></div>
+
+    <!-- if location succeed -->
+    <div class="weatherDisp">
+<div id="weatherDesc">weatherDesc</div>
+      <br>
+<div id="temp">temp</div>
+    </div>
+  </div>
 </body>
 
 </html>

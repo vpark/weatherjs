@@ -1,3 +1,10 @@
-.test {
-  background-color: red;
+.span {
+/*padding: 0 25% 0 25%;*/
+background-color: red;
+font-family: verdana, sans-serif;
+}
+
+.weatherDisp {
+  padding: 50px 25%;
+  
 }
